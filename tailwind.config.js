@@ -52,7 +52,12 @@ module.exports = {
           700: '#334155',
           800: '#1e293b',
           900: '#0f172a',
-        }
+        },
+        'background': '#0A192F', // Deep Navy
+        'card': '#112240',      // Lighter Navy for cards/surfaces
+        'accent': '#64FFDA',    // Bright Mint/Teal for accents
+        'text-primary': '#CCD6F6', // Light Slate for primary text
+        'text-secondary': '#8892B0', // Slate for secondary text
       },
       fontFamily: {
         'sans': ['Inter', 'system-ui', 'sans-serif'],

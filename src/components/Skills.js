@@ -1,6 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Server, BrainCircuit, Tool } from 'lucide-react';
+import Code from 'lucide-react/dist/esm/icons/code';
+import Server from 'lucide-react/dist/esm/icons/server';
+import BrainCircuit from 'lucide-react/dist/esm/icons/brain-circuit';
+import Tool from 'lucide-react/dist/esm/icons/tool';
 
 const skillsData = [
   {

@@ -1,6 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Download, Users, Code, Star } from 'lucide-react';
+import Download from 'lucide-react/dist/esm/icons/download';
+import Users from 'lucide-react/dist/esm/icons/users';
+import Code from 'lucide-react/dist/esm/icons/code';
+import Star from 'lucide-react/dist/esm/icons/star';
+import resumePdf from '../Vaibhav_Pandey_Resume.pdf';
 
 const ResumeButton = () => {
   const stats = [
@@ -25,8 +29,8 @@ const ResumeButton = () => {
               Want a more detailed look at my experience? Download my resume to see my full work history, skills, and accomplishments.
             </p>
             <a
-              href="/Vaibhav_Pandey_Resume.pdf"
-              download
+              href={resumePdf}
+              download="Vaibhav_Pandey_Resume.pdf"
               className="inline-flex items-center gap-2 px-8 py-3 bg-accent text-background font-bold rounded-lg hover:bg-accent/80 transition-all duration-300 transform hover:scale-105"
             >
               <Download size={20} />

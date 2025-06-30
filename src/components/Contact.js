@@ -1,39 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github, MessageCircle, Phone, MapPin } from 'lucide-react';
 
 const Contact = () => {
-  const contactInfo = [
-    {
-      icon: <Mail className="w-6 h-6" />,
-      title: "Email",
-      value: "vaibhavpandeyhacka@gmail.com",
-      link: "mailto:vaibhavpandeyhacka@gmail.com",
-      color: "from-blue-500 to-blue-600"
-    },
-    {
-      icon: <Linkedin className="w-6 h-6" />,
-      title: "LinkedIn",
-      value: "vaibhavpandey0987654321",
-      link: "https://www.linkedin.com/in/vaibhavpandey0987654321",
-      color: "from-blue-600 to-blue-700"
-    },
-    {
-      icon: <Github className="w-6 h-6" />,
-      title: "GitHub",
-      value: "flyingvaibhav",
-      link: "https://github.com/flyingvaibhav",
-      color: "from-gray-700 to-gray-800"
-    }
-  ];
-
-  const quickStats = [
-    { label: "Projects Completed", value: "3" },
-    { label: "Technologies Mastered", value: "12+" },
-    { label: "Internship Experience", value: "3 months" },
-    { label: "Collaborations", value: "2" }
-  ];
-
   return (
     <motion.section 
       className="py-24 text-center"

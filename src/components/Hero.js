@@ -1,7 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Twitter } from 'lucide-react';
 import { Typewriter } from 'react-simple-typewriter';
+import Github from 'lucide-react/dist/esm/icons/github';
+import Linkedin from 'lucide-react/dist/esm/icons/linkedin';
+import Twitter from 'lucide-react/dist/esm/icons/twitter';
 
 const Hero = () => {
   return (

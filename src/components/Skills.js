@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import Code from 'lucide-react/dist/esm/icons/code';
 import Server from 'lucide-react/dist/esm/icons/server';
 import BrainCircuit from 'lucide-react/dist/esm/icons/brain-circuit';
-import Tool from 'lucide-react/dist/esm/icons/tool';
+import Wrench from 'lucide-react/dist/esm/icons/wrench';
 
 const skillsData = [
   {
@@ -23,7 +23,7 @@ const skillsData = [
   },
   {
     category: 'Tools & DevOps',
-    icon: <Tool className="w-8 h-8 text-accent" />,
+    icon: <Wrench className="w-8 h-8 text-accent" />,
     skills: ['Git & GitHub', 'Docker', 'CI/CD', 'Jest', 'Webpack', 'Vite'],
   },
 ];

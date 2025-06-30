@@ -152,4 +152,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by Vaibhav Pandey 
+Made with ❤️ by Vaibhav Pandey

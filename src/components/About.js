@@ -24,25 +24,12 @@ const About = () => {
       </h2>
       <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
 
-      <div className="grid md:grid-cols-2 gap-16 items-start">
-        <div className="space-y-4 text-text-secondary text-lg">
+      <div className="grid md:grid-cols-1 gap-16 items-start">
+        <div className="space-y-4 text-text-secondary text-lg dark:text-text-secondary-dark">
           <p>
-            Hello! I'm Vaibhav, a software developer with a passion for creating things that live on the internet. My interest in web development started back when I decided to build a custom blog — turns out hacking together a dynamic website taught me a lot about HTML, CSS & JavaScript!
+            I am a passionate and self-driven developer pursuing B.Tech in Computer Science. I specialize in full-stack web development and AI/ML-driven solutions. I have experience working with modern technologies like React, Node, Python, and YOLOv8. I love building impactful projects that solve real-world problems.
           </p>
-          <p>
-            Fast-forward to today, and I've had the privilege of working on several projects, honing my skills in both front-end and back-end development. My main focus these days is building accessible, inclusive products and digital experiences for a variety of clients.
-          </p>
-          <p>Here are a few technologies I've been working with recently:</p>
         </div>
-        
-        <ul className="grid grid-cols-2 gap-x-8 gap-y-2 text-text-secondary">
-          {skills.map((skill, i) => (
-            <li key={i} className="flex items-center gap-2">
-              <span className="text-accent">▹</span>
-              {skill}
-            </li>
-          ))}
-        </ul>
       </div>
     </motion.section>
   );

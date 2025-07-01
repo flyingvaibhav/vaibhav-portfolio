@@ -7,24 +7,19 @@ import Wrench from 'lucide-react/dist/esm/icons/wrench';
 
 const skillsData = [
   {
-    category: 'Frontend',
+    category: 'Languages',
     icon: <Code className="w-8 h-8 text-accent" />,
-    skills: ['HTML5', 'CSS3', 'JavaScript (ES6+)', 'React', 'Next.js', 'Tailwind CSS'],
+    skills: ['Python', 'C++', 'JavaScript', 'HTML', 'CSS', 'SQL'],
   },
   {
-    category: 'Backend',
+    category: 'Frameworks/Libraries',
     icon: <Server className="w-8 h-8 text-accent" />,
-    skills: ['Node.js', 'Express.js', 'Python', 'Flask', 'MongoDB', 'MySQL'],
+    skills: ['React.js', 'Node.js', 'Express.js', 'Pandas', 'NumPy', 'OpenCV'],
   },
   {
-    category: 'AI/ML',
-    icon: <BrainCircuit className="w-8 h-8 text-accent" />,
-    skills: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Pandas', 'NumPy', 'OpenCV'],
-  },
-  {
-    category: 'Tools & DevOps',
+    category: 'Tools',
     icon: <Wrench className="w-8 h-8 text-accent" />,
-    skills: ['Git & GitHub', 'Docker', 'CI/CD', 'Jest', 'Webpack', 'Vite'],
+    skills: ['GitHub', 'MongoDB', 'MySQL', 'Google Colab', 'REST APIs'],
   },
 ];
 

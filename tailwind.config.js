@@ -30,34 +30,47 @@ module.exports = {
       },
       colors: {
         primary: {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          300: '#93c5fd',
-          400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e40af',
-          900: '#1e3a8a',
+          DEFAULT: '#4f46e5', // Indigo
+          50: '#f5f6ff',
+          100: '#e0e7ff',
+          200: '#c7d2fe',
+          300: '#a5b4fc',
+          400: '#818cf8',
+          500: '#6366f1',
+          600: '#4f46e5',
+          700: '#4338ca',
+          800: '#3730a3',
+          900: '#312e81',
         },
-        dark: {
-          50: '#f8fafc',
-          100: '#f1f5f9',
-          200: '#e2e8f0',
-          300: '#cbd5e1',
-          400: '#94a3b8',
-          500: '#64748b',
-          600: '#475569',
-          700: '#334155',
-          800: '#1e293b',
-          900: '#0f172a',
+        accent: {
+          DEFAULT: '#8b5cf6', // Purple
+          50: '#faf5ff',
+          100: '#f3e8ff',
+          200: '#e9d5ff',
+          300: '#d8b4fe',
+          400: '#c084fc',
+          500: '#a78bfa',
+          600: '#8b5cf6',
+          700: '#7c3aed',
+          800: '#6d28d9',
+          900: '#5b21b6',
         },
-        'background': '#0A192F', // Deep Navy
-        'card': '#112240',      // Lighter Navy for cards/surfaces
-        'accent': '#64FFDA',    // Bright Mint/Teal for accents
-        'text-primary': '#CCD6F6', // Light Slate for primary text
-        'text-secondary': '#8892B0', // Slate for secondary text
+        background: {
+          DEFAULT: '#f9fafb', // Light gray for light mode
+          dark: '#18181b',    // Tailwind's zinc-900 for dark mode
+        },
+        card: {
+          DEFAULT: '#fff',
+          dark: '#23272f',
+        },
+        'text-primary': {
+          DEFAULT: '#18181b', // zinc-900
+          dark: '#f9fafb',   // light gray for dark mode
+        },
+        'text-secondary': {
+          DEFAULT: '#4b5563', // zinc-600
+          dark: '#d1d5db',   // zinc-300
+        },
       },
       fontFamily: {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
